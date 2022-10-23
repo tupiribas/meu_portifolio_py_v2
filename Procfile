@@ -1,1 +1,1 @@
-web: gunicorn --chdir portifolio app:app
+web: gunicorn app:app

@@ -13,5 +13,6 @@ def create_app():
     app = minimal_app()
     configuration.init_app(app)
     configuration.carregar_extensoes(app)
-    app.run()
-    return app
+
+    if __name__ == '__main__':
+        app.run()
