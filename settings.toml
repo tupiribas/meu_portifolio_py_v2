@@ -1,0 +1,7 @@
+[default]
+    TITLE = "Tupi Guedes | Dev"
+
+    EXTENSIONS = [
+        'portifolio.ext.appearance',
+        'portifolio.blueprints.webui'
+    ]
